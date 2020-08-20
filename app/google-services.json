@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "696418967287",
+    "firebase_url": "https://majestic-cairn-277609.firebaseio.com",
+    "project_id": "majestic-cairn-277609",
+    "storage_bucket": "majestic-cairn-277609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696418967287:android:a3d5ed2a37d65c1ad7bdf2",
+        "android_client_info": {
+          "package_name": "com.sekar.quizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696418967287-ll2ednfc47i9dpfa72mn3o75v17nqlvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIPIUsCN6dJwA53ngzeUCXenAxXKlJBfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696418967287-ll2ednfc47i9dpfa72mn3o75v17nqlvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

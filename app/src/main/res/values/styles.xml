@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/zoom_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out_anim</item>
+    </style>
+    <style name="Animationfade">
+        <item name="android:windowEnterAnimation">@anim/anim_fade</item>
+        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#00FFFF</item>
+        <item name="colorControlActivated">#FFFF00</item>
+    </style>
+
+</resources>

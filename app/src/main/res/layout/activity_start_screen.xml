@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backker"
+    android:layout_height="match_parent"
+    tools:context=".StartScreenActivity">
+    <RelativeLayout
+        android:layout_marginBottom="100dp"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="@drawable/round_white_back"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Create account"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/amarante"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textContainer"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/tv1"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            android:fontFamily="@font/amarante"
+            app:counterMaxLength="10"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            >
+            <EditText
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/amarante"
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type your username"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:layout_below="@id/textContainer"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/amarante"
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type your coutry name"
+                />
+        <Button
+            android:onClick="upload"
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/green_round_back"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/amarante"
+            android:text="Start"/>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

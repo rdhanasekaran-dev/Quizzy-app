@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Quizzy</string>
+    <string name="facebook_app_id" translatable="false">3839976336044107</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb3839976336044107</string>
+    <string name="callback_url" translatable="false">https://instagram.com/</string>
+    <string name="base_url" translatable="false">https://api.instagram.com/</string>
+    <string name="drawerOpen" translatable="false">draweropen</string>
+    <string name="drawerClose" translatable="false">drawerclose</string>
+    <string name="play">play</string>
+    <string name="quiz">Quiz</string>
+    <string name="picquiz">Picture Quiz</string>
+    <string name="puzzle">Puzzle</string>
+    <string name="riddles">Riddles</string>
+    <string name="report">Report your issues</string>
+    <string name="sendemail">Send as email</string>
+    <string name="writeyourreport">Write your reports...</string>
+    <string name="comments">Send your comments</string>
+    <string name="writecomments">Write your comments...</string>
+    <string name="level1">Level 1</string>
+    <string name="level14">Level 14</string>
+    <string name="level2">Level 2</string>
+    <string name="level15">Level 15</string>
+    <string name="level3">Level 3</string>
+    <string name="level16">Level 16</string>
+    <string name="level4">Level 4</string>
+    <string name="level17">Level 17</string>
+    <string name="level5">Level 5</string>
+    <string name="level18">Level 18</string>
+    <string name="level6">Level 6</string>
+    <string name="level19">Level 19</string>
+    <string name="level7">Level 7</string>
+    <string name="level20">Level 20</string>
+    <string name="level8">Level 8</string>
+    <string name="level21">Level 21</string>
+    <string name="level9">Level 9</string>
+    <string name="level22">Level 22</string>
+    <string name="level10">Level 10</string>
+    <string name="level23">Level 23</string>
+    <string name="level11">Level 11</string>
+    <string name="level24">Level 24</string>
+    <string name="level12">Level 12</string>
+    <string name="level25">Level 25</string>
+    <string name="level13">Level 13</string>
+    <string name="randomriddles">Random Riddles</string>
+    <string name="loading">Loading...</string>
+    <string name="categories">Categories</string>
+    <string name="mathpuzzle">Math puzzle</string>
+    <string name="wordpuzz">Word puzzle</string>
+    <string name="tiletap">Tile tap</string>
+    <string name="listmem">List memory</string>
+    <string name="randompuzzle">Random puzzle</string>
+    <string name="enter">Enter</string>
+    <string name="start">Start</string>
+    <string name="contain">Is the list contain this word?</string>
+</resources>
